@@ -16,7 +16,7 @@ int main(int, char* argv[]) {
     printf("%d\n", Q);
     for(int i = 0; i < Q; i++) {
         // these composites are strong pseudoprimes to almost 25% of bases
-        ll p, q;
+        u64 p, q;
         do {
             p = pgen.gen(sqrt(MAX_N / 2), gen);
             q = 2 * p - 1;
